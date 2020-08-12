@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic meta info
+  ==================== -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Book</title>
+
+  <!-- Favicon
+  ============ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png" />
+
+  <!-- CSS files
+  ============== -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> 
+ 
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- ---------------------------------------------------Modernizr file-----------------------------------  =================== -->
+  <script charset="utf-8" type="text/javascript "src="js/modernizr.custom.js"></script>
+
+</head>
+
+<!--------------------------------------------------------	NAVIGATION BAR-------------------------------------------------------------->
+
+<body>
+ <header class ="header"> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button> 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+		  <li class="active"><a href="about.html">About us</a></li>
+		  
+        <li class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-list"><a href="#Snacks">Snacks</a></li>
+            <li class="dropdown-list"><a href="#Desserts">Deserts</a></li>
+            <li class="dropdown-list"><a href="#Drinks">Drinks</a></li>			 
+          </ul>
+        </li> 
+		 <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+       
+    </div>
+  </div> 
+   </nav> 
+  
+  <!-- ---------------------------------------------------Splash Screen------------------------------------------  ================== -->
+<!--  <div id="splash"></div>-->
+
+  <!-- -------------------------------------------------------Website Logo----------------------------------------  ================= -->
+  <section id="logo">
+    <div class="container text-center wow pulse">
+      <img src="images/logo-white.svg" alt="logo" />
+      <br />
+      <h1>Recipe Book</h1>
+    </div>
+  </section>
+</header> 
+  <!-- -----------------------------------------------------------------Recipes Categories-----------------------  ======================= -->
+<!--
+  <section id="categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Categories</h2>
+        </div>
+      </div>
+      <div class="row wow zoomIn">
+         Breakfast - Category Item 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/milk.png" alt="milk" width="48" height="48" />
+            <br />
+            Snacks
+          </div>
+        </div> 
+         Snacks- Category Item 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/peanuts.png" alt="peanuts" width="48" height="48"/>
+            <br />
+            Desserts
+          </div>
+        </div>
+     
+         Vegetarian - Category Item 
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+          <div class="category-item text-center">
+            <img src="images/icons/vegan.png" alt="vegan" width="48" height="48" />
+            <br />
+            Drinks
+          </div>
+        </div>
+      </div>
+      <div class="row wow zoomIn">
+        <div class="col-12 text-center show-all">
+          <div class="category-item text-center">
+            <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+            <br />
+            Show All
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+  <!------------------------------------------------------ Recipes Items--------------------------------------------  ================== -->
+  <section id="items">
+    <div class="container">
+      <div class="row" id="Snacks">
+        <div class="col-12">
+          <h2>Snacks</h2>
+		  <p class="explanation"> Below are the variety of Snacks. Click on the Image to see the recipe.</p><br>
+        </div>
+      </div>
+      <div class="row">
+        <!-- First recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Vegetable-Samosa.html">
+              <img src="images/Vegetable-Samosa.jpg" alt="Vegetable-Samosa" />
+            </a>
+            <br />
+            <h3><strong>Vegetable-Samosa</strong></h3>
+			  <p> Vegetable Samosa is an ultra-popular deep fried snack recipe made with spiced potatoes and plain flour.</p>
+          </div>
+        </div>
+        <!-- Second recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Vegetable-Spring-Rolls.html">
+              <img src="images/Vegetable-Spring-Rolls.jpg" alt="Vegetable-Spring-Rolls" />
+            </a>
+            <br />
+            <h3><strong>Vegetable-Spring-Rolls</strong></h3>
+			  <p> Vegetable-Spring-Rolls is a wrapper stuffed with shredded cabbages and carrots and then deep fried in oil.  </p>
+          </div>
+        </div>
+        <!-- Third recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Pani-Puri.html">
+              <img src="images/pani-puri.jpg" alt="Pani puri" />
+            </a>
+            <br />
+            <h3><strong>Pani-Puri</strong></h3>
+			  <p>Pani poori is made with small puri balls filled with spiced and mashed aloo and a specially made spiced water.</p>
+          </div>
+        </div>		  
+		</div>
+		
+		<div class="row" id ="Desserts">
+        <div class="col-12">
+          <h2><strong>Desserts</strong></h2>
+			<p class="explanation"> Below are the variety of products. Click on the Image to see the recipe.</p><br>
+        </div>
+      </div>
+		<div class="row">
+        <!-- Fourth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Gulab-Jamun.html">
+              <img src="images/gulab-jamun.jpg" alt="gulab-jamun" />
+            </a>
+            <br />
+            <h3><strong>Gulab-Jamun</strong></h3>
+			  <p>Gulab jamun a sweet prepared with milk powder and sugar syrup. it is also served with vanilla ice cream which makes it cold.</p>
+          </div>
+        </div>
+        <!-- Fifth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Halwa.html">
+              <img src="images/karachi-halwa.jpg" alt="karachi-halwa" />
+            </a>
+            <br />
+            <h3><strong>Halwa</strong></h3>
+			  <p> Bombay Karachi Halwa is a dessert prepared with corn flour, sugar, ghee and flavoured with cardamom and dry nuts.</p>
+          </div>
+        </div>
+        <!-- Sixth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="laddu.html">
+              <img src="images/laddu.jpg" alt="laddu" />
+            </a>
+            <br />
+            <h3><strong>laddu</strong></h3>
+			  <p>Laddu is made with chickpeas flour & saffron, it is mainly prepared for occasions to share with family and friends.</p>
+          </div>
+        </div>
+		</div>
+		
+		<div class="row" id="Drinks">
+        <div class="col-12">
+          <h2><strong>Drinks</strong></h2>
+			<p class="explanation"> Below are the variety of drinks. Click on the Image to see the recipe.</p><br>
+        </div>
+      </div>
+		
+		<div class="row">
+        <!-- Seventh recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Almond-Milk.html">
+              <img src="images/badam%20milk.jpg" alt="Almond-Milk" />
+            </a>
+            <br />
+            <h3><strong>Almond-Milk</strong></h3>
+			  <p> Almond Milk a nutritious almond flavoured beverage drink prepared with full cream milk and badam.</p>
+          </div>
+        </div>
+        <!-- Eight recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Lassi-plain.html">
+              <img src="images/Lassi-plain.jpg" alt="Lassi-plain" />
+            </a>
+            <br />
+            <h3><Strong>Lassi-plain</Strong></h3>
+			  <p>Sweet lassi is a a yogurt-based drink, it is usually served during hot summer to lower the body heat.  </p>
+          </div>
+        </div>
+        <!-- Ninth recipe item -->
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
+          <div class="recipe-item text-center">
+            <a href="Lemon-Soda.html">
+              <img src="images/Lemon-Soda.jpg" alt="Lemon-Soda" />
+            </a>
+            <br />
+            <h3><strong>Lemon-Soda</strong></h3>
+			  <p> Soda is a traditional, refreshing beverage or drink which is perfect for long day or during summer.</p>
+          </div>
+        </div>
+		</div>
+      </div>     
+  </section>
+
+  <!-- ---------------------------------------------------------Website Footer-------------------------------------  =================== -->
+   <footer> 	  
+    <div class="container">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-6 col-sm-12 text-center">
+           <p class="copyrightText"><strong>© Copyright 2020. All Rights Reserved</strong></p>          
+        </div>
+		  
+        <!-- Author -->
+        <div class="col-md-6 col-sm-12">
+          <div class="footer-author">
+            Made with
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            love by
+            <a href=" " target="_blank">Madhu</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript files
+  ===================== -->
+  <script charset="utf-8" src="js/jquery-3.3.1.min.js"></script>
+  <script charset="utf-8" src="js/bootstrap.min.js"></script>
+  <script charset="utf-8" src="js/wow.min.js"></script>
+  <script charset="utf-8" src="js/scripts.js"></script>
+	
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+
+
+</body>
+
+</html>
