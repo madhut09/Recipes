@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic meta info
+  ==================== -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Book</title>
+
+  <!-- Favicon
+  ============ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png" />
+
+  <!-- CSS files
+  ============== -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+  <!-- ---------------------------------------------------Modernizr file-----------------------------------  =================== -->
+  <script charset="utf-8" type="text/javascript "src="js/modernizr.custom.js"></script>
+
+</head>
+
+<!--------------------------------------------------------	NAVIGATION BAR-------------------------------------------------------------->
+
+<body>
+ <header> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button> 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+		  <li class="active"><a href="about.html">About us</a></li>		  
+  
+		 <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+       
+    </div>
+  </div> 
+   </nav> 
+	</header>
+  <!-- ---------------------------------------------------Splash Screen------------------------------------------  ================== -->
+<!--  <div id="splash"></div> -->
+  <!-- -----------------------------------------------------------------Recipes Categories-----------------------  ======================= -->
+ <section id="contact">
+	 <div class="form_wrapper">
+<div class="form_container">
+    <div class="title ">
+      <h2> Contact </h2>      
+    </div>
+	
+ <form>
+      <div class="row">
+        <div class="col_half">
+          <label>First name</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="first_name" placeholder="John" required />
+          </div>
+        </div>
+        <div class="col_half">
+          <label>Last name</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+            <input type="text" name="last_name" placeholder="Doe" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col_half">
+          <label>Email</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+            <input type="email" name="email" placeholder="johndoe@gmail.com" required />
+          </div>
+        </div>
+        <div class="col_half">
+          <label>Phone</label>
+          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+            <input type="tel" name="phone" placeholder="Phone no" pattern="[0-9]{10}" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label>Comments</label>
+          <div class="textarea_field"> <span><i aria-hidden="true" class="fa fa-comment"></i></span>
+            <textarea cols="46" rows="3" name="comments"></textarea>
+          </div>
+        </div>
+      </div>
+      <input class="button" type="submit" value="Sumbit" />
+    </form>
+  
+  </div>
+	 </div>
+	</section>
+
+ 
+  <!-- ---------------------------------------------------------Website Footer-------------------------------------  =================== -->
+   <footer> 	  
+    <div class="container">
+      <div class="row">
+        <!-- About -->
+        <div class="col-md-6 col-sm-12 text-center">
+           <p class="copyrightText"><strong>© Copyright 2020. All Rights Reserved</strong></p>          
+        </div>
+		  
+        <!-- Author -->
+        <div class="col-md-6 col-sm-12">
+          <div class="footer-author">
+            Made with
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            love by
+            <a href=" " target="_blank">Madhu</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript files
+  ===================== -->
+  <script charset="utf-8" src="js/jquery-3.3.1.min.js"></script>
+  <script charset="utf-8" src="js/bootstrap.min.js"></script>
+  <script charset="utf-8" src="js/wow.min.js"></script>
+  <script charset="utf-8" src="js/scripts.js"></script>
+	
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+
+</body>
+
+</html>
